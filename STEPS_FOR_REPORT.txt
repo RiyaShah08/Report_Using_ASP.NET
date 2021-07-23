@@ -1,0 +1,51 @@
+create website
+add new item
+
+DATASET// .xsd extension
+in that file 
+right click->tableadapter
+select the database which u want to use on plus symbol click on connection string press next
+press next
+select sql statement
+press next
+
+click on query builder
+select the table 
+press close
+select number of columns which you want to display in report
+
+//you can also update the query if you wish
+click on executequery
+press ok
+press next
+press next
+
+create aspx page
+in div tag take reportviewer control from toolbox
+after form tag take scriptmanager control from tooldbox
+
+in solution explorer 
+add new item
+create report //rdlc file
+insert the design as per ur choice like
+set its width=100%
+height=600px
+
+right click
+insert page header 
+insert page footer
+
+in page header add textbox write something 
+same do for page footer
+
+in middle
+insert table
+will show name, datasource, available datasets
+press ok
+
+in table seelct the columns name
+
+
+In design click on arrow of reportview control 
+goto choose report
+choose ur report name
